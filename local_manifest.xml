@@ -27,7 +27,9 @@
          <project name="fusion3-du/android_external_sepolicy" path="external/sepolicy" remote="gh" revision="m" />
 
   <remove-project name="android_build" />
-         <project name="fusion3-du/android_build" path="build" remote="gh" revision="m-caf" />
+         <project path="build" name="fusion3-du/android_build" remote="gh" revision="m-caf" >
+         <copyfile src="core/root.mk" dest="Makefile" />
+         </project>
 
   <remove-project name="android_bionic" />
          <project name="fusion3-du/android_bionic" path="bionic" remote="gh" revision="m-caf" />
