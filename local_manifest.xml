@@ -125,6 +125,6 @@
   <remove-project name="platform/prebuilts/eclipse-build-deps-sources" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
   <remove-project name="platform/tools/adt/eclipse" />
-  <remove-project name="platform/tools/adt/idea" /> -->
+  <remove-project name="platform/tools/adt/idea" />
 
 </manifest>
