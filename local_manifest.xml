@@ -75,6 +75,15 @@
   <remove-project name="android_packages_apps_Bluetooth" />
          <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="tm" revision="testuo" />
 
+<!-- Vold -->
+
+  <remove-project name="android_system_vold" />
+         <project path="system/vold" name="android_system_vold" remote="slim" revision="mm6.0" />
+  <remove-project name="platform/external/e2fsprogs" />
+         <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="slim" revision="mm6.0" />
+  <project path="external/exfat" name="android_external_exfat" remote="slim" revision="mm6.0" />
+  <project path="external/fuse" name="android_external_fuse" remote="slim" revision="mm6.0" />
+
 <!--  <remove-project name="platform/prebuilts/sdk" />  -->
 
 <!--Vendors-->
